@@ -12,7 +12,7 @@
 
 <body>
   <header>
-    <nav>
+    <nav class="navbar">
     <img src="Kwara_State_Polytechnic_(logo).jpg" alt="kwarapoly-logo">
     <ul>
     <li>About</li>
@@ -30,8 +30,37 @@
 <li> Rely on Almighty Allah</li>
 <li> Be consistent</li>
 <li> Move with others</li>
-
  </ol>
   </div>
+  <section class="user-info">
+<marquee behavior="" direction="left" width="60%" scrollamount="10"><span>
+  You must be careful at supplying your basic information. <span class="note"> Note:</span> All information supplied would be used to process your academic result
+</marquee>
+    <form action="index.html" method="post">
+      <fieldset>
+        <label> Gender:</label>
+        <input type="radio"> male
+        <input type="radio"> female
+        <br>
+        <br>
+      <label for="name">Student's Name:</label>
+      <input class="student-name" type="text"name="name" placeholder="Student Name"/>
+      <br>
+     <br>
+    <label for="email">Email:</label>
+      <input class="student-email" type="email"name="email" placeholder="Email" required/>
+      <br>
+      <br>
+    <label for="number">Student's Phone no:</label>
+      <input class="student-phone" type="number"name="name" placeholder="Phone number"/>
+     <br />
+     <br />
+      <label for="comment-box">comment</label>
+      <textarea name="comment" id="comment" cols="30" rows="10"> </textarea>
+      <br />
+      <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </section>
 </body>
 </html>

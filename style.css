@@ -2,7 +2,7 @@ body{
   box-sizing: 0px;
   padding:0px;
   margin: 0px;
-   background-color:lightgray;
+  background-color:lightgray;
 }
 /*header{
   display: flex;
@@ -10,6 +10,9 @@ body{
 nav{
   flex-direction: row;
 }*/
+.navbar img{
+  height: 4rem;
+}
 div {
 
    width:100%;
@@ -19,15 +22,24 @@ div {
   display: inline-block;
   border: 5px solid whitesmoke;
   border-radius: 10px;
-  align-items: center;
-  margin:15px;
+  margin:20px;
  }
  h1{
    padding:0px;
  }
- p{
-   padding-left: 10px;
+ .note{
+   font-weight: bold;
+   color: red;
  }
- ol{
-   padding:0px 35px;
+.user-info{
+ background: tomato;
+ margin:20px;
+ width: 100%;
+ 
+}
+ marquee{
+   background:pink;
+   padding: 0px;
+   font-weight: bolder;
+   font-size: 30px;
  }
