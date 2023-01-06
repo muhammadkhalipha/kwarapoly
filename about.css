@@ -1,5 +1,21 @@
 p{
-  color: lightpink;
-  line-height: 3px;
+  color: brown;
+  line-height: 28px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: justify;
+  text-indent: 10px;
+}
+div{
+ color: black;
+ white-space: normal;
+ background: grey;
+ border: 1px solid blue;
+ padding-top: 20px;
+ font-size: 20px;
+ text-align: justify;
+}
+  
+.spa{
+  font-weight: bolder;
+  color: red;
 }
