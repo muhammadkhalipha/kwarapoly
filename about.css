@@ -1,11 +1,11 @@
-p{
+.p1{
   color: brown;
   line-height: 28px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: justify;
   text-indent: 10px;
 }
-div{
+#mission{
  color: black;
  white-space: normal;
  background: grey;
@@ -13,9 +13,18 @@ div{
  padding-top: 20px;
  font-size: 20px;
  text-align: justify;
+ margin-bottom: 20px;
 }
-  
-.spa{
+span{
   font-weight: bolder;
   color: red;
+  
+}
+#p2{
+  font-variant: small-caps;
+}
+#back{
+  margin-top: 20px;
+  backface-visibility: visible;
+  /* backface-visibility is not in conformity with all browsers but selected*/
 }
