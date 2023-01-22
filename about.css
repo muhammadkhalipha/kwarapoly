@@ -1,3 +1,8 @@
+body{
+  padding: 20px;
+  margin:0px;
+ box-sizing: border-box;
+}
 .p1{
   color: brown;
   line-height: 28px;
@@ -27,4 +32,32 @@ span{
   margin-top: 20px;
   backface-visibility: visible;
   /* backface-visibility is not in conformity with all browsers but selected*/
+}
+.success{
+  font-size: 10px;
+  font-weight: bold;
+  padding-left:10px;
+}
+ol{
+  list-style-type: square;
+  background:lightgraygrey;
+}
+p.catalogue{
+  font-family: 20px;
+  font-weight: bold;
+}
+.first-head, th, td{
+  border: 2px solid black;
+  color: red;
+}
+.second-head{
+  border: 2px solid black;
+  color: red;
+  border-collapse: collapse;
+}
+tr:nth-child(odd){
+  background-color: paleturquoise;
+}
+tr:nth-child(even){
+  background-color: lawngreen;
 }
