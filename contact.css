@@ -1,0 +1,28 @@
+body{
+  background-color: yellow;
+  padding: 0px;
+  margin: 0px;
+}
+ul{
+  list-style-type: none;
+  display: inline-flex;
+  margin: 0 auto;
+  padding: 15px;
+}
+img{
+  width: 5em;
+  height: 5em;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+a{
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: inline-block;
+} 
+p{
+  padding-left: 15px;
+  margin: 5px;
+  font-size: 35px;
+}
