@@ -178,6 +178,12 @@ color:black;
   display:inline-block;
   width:90px;
 }
+.p-principal{
+  font-style:italic;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  margin: 0px;
+}
  #footer{
    margin-top: 600px;
    margin-bottom: 0px;
