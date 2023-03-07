@@ -16,7 +16,7 @@ nav{
  /* align-items: center;*/
  
 }
-li{
+.l1{
  list-style-type: none;
 }
 main{
@@ -79,7 +79,7 @@ img{
  justify-items: space-between;
   height:70px;
   width: 70px;
-  background: red;
+  
 }
 button{
   display: flex;
@@ -109,39 +109,75 @@ button{
 .p2{
   text-align:justify;
 }
-
-
 #logo-float{
 background: none;
 float:left;}
-
-
-/*#div-float{
-  margin-bottom: 20px;
-  background: green;
-  display: block;
-}
-
-.box{float:right;
-  box-sizing: border-box;
- width:33%;
-  background: darkgray;
-  border-left: 2px solid black;
-  border-bottom:1px red solid;
+.l2{
+  list-style-type:lower-roman;
 }
 #first-choice{
-  margin-top: 20px
+  display:inline-flex;
+  justify-content: space-evenly;
+ text-align: justify;
 }
 .choice1-1{
   width:50%;
-  background:red;
-  color: white;
-  font-weight:30px;
-  font-style: Italic;
-  margin-top: 20px
-}*/
+  /*border: 5px solid blue;*/
+  height:auto;
+  line-height: 20px;
+  color: black;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-left:10px;
+}
+
+.choice1-2{
+  width:50%;
+/*  border:3px solid green;*/
+  height:auto;
+color:black;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+.choice1-3{
+  width:50%;
+  /*border:4px yellow dotted;*/
+  line-height:20px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-left:10px;
+}
 
 
+.l2:hover{
+  background: lightcyan;
+  color:blue;
+  display: inline;
+  width:120px;
+  list-style-type:upper-roman;
+  
+}
+
+.li[gud-man]{
+  color: yellow;
+}
+.h2-1{
+  text-align: center;
+  color: tomato;
+}
+#ogas{
+  background: white;
+  display: flex;
+  justify-content: space-around;
+}
+.oga1{
+  display:block;
+}
+.p22{
+  display:inline-block;
+  width:90px;
+}
  #footer{
    margin-top: 600px;
    margin-bottom: 0px;
