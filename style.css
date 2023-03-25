@@ -183,6 +183,17 @@ color:black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-weight: bold;
   margin: 0px;
+}>¶¶)}]>
+.p-principal span{
+  color:red;
+  text-decoration: underline
+}
+.p-principal a:hover{
+  color: blue;
+  text-decoration: none
+}
+.p-principal a:visited{
+  background: yellow;
 }
  #footer{
    margin-top: 600px;
